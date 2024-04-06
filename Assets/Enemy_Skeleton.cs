@@ -27,6 +27,8 @@ public class Enemy_Skeleton : Enitity
     {
         base.Update();
 
+        
+
         if(isPlayerDetected){
             if (isPlayerDetected.distance > 1)
             {
@@ -36,7 +38,7 @@ public class Enemy_Skeleton : Enitity
             }
             else
             {
-                Debug.Log("ATTACK" + isPlayerDetected);
+                Debug.Log("ATTACK" + isPlayerDetected.collider.gameObject.name);
                 isAttacking = true;
             }
         }

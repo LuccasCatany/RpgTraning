@@ -278,7 +278,7 @@ Transform:
   m_GameObject: {fileID: 213099026}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1901, y: -2.0565, z: 0}
+  m_LocalPosition: {x: -4.1901, y: 3.69, z: 0}
   m_LocalScale: {x: 6.2274265, y: 4.112115, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 922128454}
   - component: {fileID: 922128457}
   - component: {fileID: 922128456}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1143,7 +1143,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   moveSpeed: 1
-  jumpFoce: 0
+  jumpFoce: 1
+  playerCheckDistance: 4
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
